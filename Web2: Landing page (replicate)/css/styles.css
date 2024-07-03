@@ -10,6 +10,9 @@ body {
     margin-right: auto;
 }
 
+
+                /* header */
+
 header {
     background-color: #1F2937;
     display: flex;
@@ -53,10 +56,10 @@ header {
     height: 250px;
     gap: 50px;
     width: 100%;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 
-/* header texto box */
+/* header text box */
 .header-content-text {
     width: 50%;
     display: flex;
@@ -80,10 +83,10 @@ header {
     color: white;
     max-width: 100%;
     max-height: 100%;
-    object-fit: contain; /* Ajusta la imagen dentro del contenedor manteniendo su relación de aspecto */
+    object-fit: contain;
 }
 
-/* titulo principal */
+/* principal title */
 .header-content-text h1 {
     font-size: 48px;
     font-weight: bolder;
@@ -91,7 +94,7 @@ header {
     color: #F9FAF8;
 }
 
-/* subtexto del titulo principal */
+/* principal title's subtext */
 .header-content-text p {
     font-size: 18px;
     color: #E5E7EB;
@@ -114,12 +117,68 @@ header {
     color: white;
 }
 
-/* titulo some randome information */
+
+
+                /* main content */
+
+
+.content {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: column;
+margin-top: 25px;
+}
+
+
+
+                /* features */
+
+
+.content-features {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    justify-content: center;
+    align-items:center ;
+}
+
+.features {
+    display: flex;
+    gap: 75px;
+    margin-bottom: 100px;
+}
+
+.feature {
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* "some random information" title */
 .features-title h2 {
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
+
+.feature-img img {
+    width: 150px;
+    height: 160px;
+    border: #3882F6 solid 4px;
+    border-radius: 12px;
+}
+
+.feature p {
+    text-align: center;
+    font-size: 16px;
+}
+
+
 
 .content-quote {
     background-color: #E5E7EB;
