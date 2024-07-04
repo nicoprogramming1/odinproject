@@ -9,30 +9,32 @@
 <body>
     <div class="wrapper">
         <header>
-            <div class="menu">
-                <span>Header logo</span>
-                <nav class="header-nav">
-                    <ul>
-                        <li><a href="http://www.google.com">header link one</a></li>
-                        <li><a href="http://www.google.com">header link two</a></li>
-                        <li><a href="http://www.google.com">header link three</a></li>
-                    </ul>
-                </nav>
+            <div class="header-wrapper">
+                <div class="menu">
+                    <span>Header logo</span>
+                    <nav class="header-nav">
+                        <ul>
+                            <li><a href="http://www.google.com">header link one</a></li>
+                            <li><a href="http://www.google.com">header link two</a></li>
+                            <li><a href="http://www.google.com">header link three</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <section class="header-content">
+                    <div class="header-content-text">
+                        <h1>This website is awesome</h1>
+                        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
+                            contrast</p>
+                        <button class="signup-btn-header">Sign up</button>
+                    </div>
+                    <div class="header-content-img">
+                        <!-- uncomment the below line to see the img and comment the next one
+                        <img class="george" src="./img resource/george.jpg" alt="this is a placeholder for an image"> -->
+                        <img class="george" src="" alt="this is a placeholder for an image">
+                
+                    </div>
+                </section>
             </div>
-            <section class="header-content">
-                <div class="header-content-text">
-                    <h1>This website is awesome</h1>
-                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
-                        contrast</p>
-                    <button class="signup-btn">Sign up</button>
-                </div>
-                <div class="header-content-img">
-                    <!-- uncomment the below line to see the img and comment the next one
-                    <img class="george" src="./img resource/george.jpg" alt="this is a placeholder for an image"> -->
-                    <img class="george" src="" alt="this is a placeholder for an image">
-                    
-                </div>
-            </section>
         </header>
 
         <main class="content">
@@ -78,14 +80,18 @@
             </article>
             
             <article class="content-quote">
-                <div>
-                    <p>
-                        This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space or mayble people will
-                        actually read it. Who knows? All i know is that it looks nice.
-                    </p>
-                    <span>
-                        -Thor, God of Thunder
-                    </span>
+                <div class="quote">
+                    <div>
+                        <p>
+                            This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space or mayble people will
+                            actually read it. Who knows? All i know is that it looks nice.
+                        </p>
+                    </div>
+                    <div>
+                        <span>
+                            -Thor, God of Thunder
+                        </span>
+                    </div>
                 </div>
             </article>
 
@@ -95,7 +101,7 @@
                     <p>Sign up for our product by clicking that button right over there!</p>
                 </div>
                 <div>
-                    <button class="signup-btn">Sign up</button>
+                    <button class="signup-btn-content">Sign up</button>
                 </div>
             </section>
 
